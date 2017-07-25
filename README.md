@@ -58,3 +58,9 @@ please pass the single character `-` as an argument.
     to Traditional C/C++/Java Style (`c`).
   * `-n, --line-length` Line length, including formatting, at which to wrap
     the block comment. Defaults to 80 characters.
+
+## Building
+
+Each program is completely self-contained in a single source file. Use your
+favourite compiler to build them individually and copy into `/usr/local/bin`
+to install. (Thanks to default rules, `make <program name>` will also work.)
