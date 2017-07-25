@@ -54,6 +54,8 @@ static int parse_args (const char **remaining) {
                     goto LINELEN;
                 break;
             }
+            case 0:
+                return 1;
             default:
                 usage();
                 return 0;
